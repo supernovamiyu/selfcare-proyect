@@ -1,1 +1,2 @@
 # selfcare-proyect
+- Este proyecto consiste en una página web para un emprendimiento hipotético, llamado SELFCARE. SELFCARE es una academia que ayudará a miles de personas en todo en mundo a potenciar sus habilidades en todos los aspectos, contribuyendo así a que la sociedad avance hacia un mejor camino. -
