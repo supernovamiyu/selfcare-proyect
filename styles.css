@@ -215,14 +215,18 @@ header{
 
 }
 
-@media only screen and (max-width: 786px){
+@media only screen and (max-width: 1368px){
     .nav-button{
         display: none;
     }
 
+    .nav-menu.responsive{
+        top: 100px;
+
+    }
     .nav-menu{
         position: absolute;
-        top: 100px;
+        top: -800px;
         display: flex;
         justify-content: center;
         width: 100%;
@@ -250,5 +254,26 @@ header{
 
     .nav-menu-btn i:hover{
         background: rgba(255, 255, 255, 0.1);
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .wrapper{
+        min-height: 100vh;
+    }
+
+    .form-box{
+        width: 100%;
+        height: 500px;
+    }
+
+    .register-container, .login-container{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .register-container .two-forms{
+        flex-direction: column;
+        gap: 0;
     }
 }
