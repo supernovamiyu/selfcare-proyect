@@ -214,3 +214,41 @@ header{
     text-decoration: underline;
 
 }
+
+@media only screen and (max-width: 786px){
+    .nav-button{
+        display: none;
+    }
+
+    .nav-menu{
+        position: absolute;
+        top: 100px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .nav-menu ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-menu-btn{
+        display: block;
+    }
+
+    .nav-menu-btn i{
+        font-size: 25px;
+        color: #fff;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.25);
+        border-radius: 50%;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .nav-menu-btn i:hover{
+        background: rgba(255, 255, 255, 0.1);
+    }
+}
